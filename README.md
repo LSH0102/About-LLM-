@@ -10,6 +10,9 @@ Use a script to compare the torch implementation and triton implementation, reac
 
 ![banchmark](./systems/benchmark.png)
 
+### Acknowledgements
+-[https://github.com/learning3d/assignment3](https://github.com/stanford-cs336/assignment2-systems) - [Referenced the test cases]
+
 ## LoRA
 Use LoRA in attention layers to fine tune the GPT2-medium on Rotten Tomatoes dataset. Imoproved the correctness from 10% to 87%
 
