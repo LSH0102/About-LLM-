@@ -8,4 +8,4 @@ A triton implementation of FlashAttention-2. Passed all tests in test_attention.
 ### Benchmark
 Using a script to compare the torch implementation and triton implementation, reached a high acceleration rate in middle and large dataset.
 
-![banchmark](./systems/banchmark.png)
+![banchmark](./systems/benchmark.png)
