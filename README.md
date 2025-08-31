@@ -20,4 +20,7 @@ Use LoRA in attention layers to fine tune the GPT2-medium on Rotten Tomatoes dat
 
 ![fine](./LoRA/fine.png)
 
+### Acknowledgements
+-https://www.cs.cmu.edu/~mgormley/courses/10423-s24/ - [Implemented homework3]
+
 
