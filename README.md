@@ -6,6 +6,15 @@ A triton implementation of FlashAttention-2. Passed all tests in test_attention.
 ![tests](./systems/tests.png)
 
 ### Benchmark
-Using a script to compare the torch implementation and triton implementation, reached a high acceleration rate in middle and large dataset.
+Use a script to compare the torch implementation and triton implementation, reached a high acceleration rate in large dataset.
 
 ![banchmark](./systems/benchmark.png)
+
+## LoRA
+Use LoRA in attention layers to fine tune the GPT2-medium on Rotten Tomatoes dataset. Imoproved the correctness from 10% to 87%
+
+![original](./LoRA/original.png)
+
+![fine](./LoRA/fine.png)
+
+
